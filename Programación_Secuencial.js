@@ -1,7 +1,7 @@
 let nombre = "Daniel";
 let edad = 15;
 let apellido = "Caicedo";
-let numero = 219847342;
+let numero = 5;
 
 function sumar(a, b) {
     return a + b;

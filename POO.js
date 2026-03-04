@@ -42,6 +42,21 @@ class Combos extends Pizza {
         this.cantidad = cantidad;
         this.bebida = bebida;
         this.postre = postre;
-    }
+    };
 
-}
+    elegirCombo() {
+        this.preparar();
+        this.hornear();
+        this.empacar();
+
+        console.log(
+            `Has elegido el combo ${this.combo} que incluye ${this.cantidad} pizzas de tamaño ${this.tamano} con masa ${this.masa} y los siguientes ingredientes: ${this.ingredientes}. Además, incluye una bebida de ${this.bebida} y un postre de ${this.postre}.`
+        );
+        return this;
+    };
+
+};
+
+
+const comboFamiliar = new Combos("Familiar", 4, "grande", "delgada", ["jamón", "piña", "queso",], "refreso", "helado");
+console.log(comboFamiliar.elegirCombo());
