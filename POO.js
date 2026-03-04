@@ -58,5 +58,5 @@ class Combos extends Pizza {
 };
 
 
-const comboFamiliar = new Combos("Familiar", 4, "grande", "delgada", ["jamón", "piña", "queso",], "refreso", "helado");
+const comboFamiliar = new Combos("Familiar", 4, "grande", "delgada", ["jamón", "champiñon", "queso",], "refreso", "helado");
 console.log(comboFamiliar.elegirCombo());
