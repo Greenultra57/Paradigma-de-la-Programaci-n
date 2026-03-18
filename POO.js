@@ -19,7 +19,7 @@ class Pizza {
         console.log("Empacando la pizza...");
         return this;
     }
-};
+};x
 
 const pizzaHawaiana = new Pizza("delgada", "mediana", ["jamón", "piña", "queso"]);
 
